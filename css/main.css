@@ -91,26 +91,21 @@ h2 {
     font-weight: 600;
 }
 
-.steps, .step1, .step2, .step3, .step4, .values {
-    margin-top: 1rem;
-}
-
-.link {
-    padding-bottom: 2rem;
-    margin-block: 1rem;
-}
-
 .steps {
     text-align: right;
 }
 
-.steps > * {
+.steps>* {
     border-block: 1px solid black;
 }
 
 .values {
     font-size: var(--step--1);
     padding-inline: 0.5rem;
+}
+
+.steps, .step1, .step2, .step3, .step4, .values {
+    margin-top: 1rem;
 }
 
 .layout {
@@ -120,7 +115,7 @@ h2 {
     margin-bottom: 1rem;
 }
 
-.layout>* {
+.layout > * {
     padding: 0.5rem;
     background-color: bisque;
     border: solid 3px black;
@@ -157,5 +152,10 @@ h2 {
     .media {
         font-size: 0.5rem;
     }
+}
+
+.link {
+    padding-bottom: 2rem;
+    margin-block: 1rem;
 }
 
