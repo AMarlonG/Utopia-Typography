@@ -53,6 +53,8 @@ svg {
 
 h1 {
     font-size: var(--step-5);
+    line-height: 1.15;
+    margin-block: 1.5rem;
 }
 
 .intro-text {
