@@ -1,5 +1,5 @@
 
-@import url(calc.css);
+@import "./css/calc.css";;
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
