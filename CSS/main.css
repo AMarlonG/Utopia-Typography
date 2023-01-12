@@ -1,0 +1,65 @@
+
+@import url(calc.css);
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    min-height: 100%;
+    line-height: 1.5;
+    background-color: #F0F0F0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: var(--step-0);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: var(--step-5);
+}
+
+.intro-text {
+    font-size: var(--step-1);
+}
+
+h2 {
+    font-size: var(--step-2);
+}
+
+.step4 {
+    font-size: var(--step-4);
+}
+
+.step3 {
+    font-size: var(--step-3);
+}
+
+.step2 {
+    font-size: var(--step-2);
+}
+
+.step1 {
+    font-size: var(--step-1);
+}
+
+.utopia, .intrinsic, .media {
+    background-color: bisque;
+    border: solid 3px black;
+}
