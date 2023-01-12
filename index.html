@@ -8,16 +8,36 @@
     <link rel="stylesheet" href="/CSS/calc.css">
     <link rel="stylesheet" href="/CSS/main.css">
 </head>
-<body>
-    <main class="main-grid">
+<body class="main-grid">
+    <main class="content">
         <section class="intro">
             <h1>Fluid Typography</h1>
-            <p class="intro-text">This page is a short presentation of the fluid responsive work done by Utopia. It consist of a joint design and developer goal for minimal and elegant design, which streamlines collaboration between design and developments, and ensures visual harmony and consistency. A true embrace of the ebb and flow of the internet.</p>
+            <p class="intro-text">This page is a short presentation of the fluid responsive work done by Utopia. It consist of a joint design and developer goal for minimal and elegant design, which streamlines collaboration between designers and developers, and ensures visual harmony and consistency. A true embrace of the ebb and flow of the internet.</p>
+        </section>
+
+        <section class="responsive">
+            <h2>Responsiveness</h2>
+            <p>A website with no CSS is responsive by nature. This is what is referred to ass intrinsic responsiveness. The
+                advent of different screen sizes made fitting content for these differences a high priority. This is what's
+                called responsive web design. This has for a long time, and still does mean defining breakpoints and the use
+                of media queries in CSS code.</p>
+            <p class="resize">Resize the browser window to observe the transition.</p>
+        
+            <div class="layout">
+                <p class="intrinsic">I'm also a text, but I don't use any responsive coding in CSS. I'm what's called intrinsic.
+                </p>
+                <p class="media">I'm the most common text, and I rely on different media queries to define breakpoints.</p>
+                <p class="utopia">I'm a text and I use Utopia calculations to fluidly transition between screen sizes</p>
+            </div>
+        
+            <p>The main differences is that (1) the Utopia text fluidly transitions between font sizes, while (2) the intrinsic
+                never changes, and (3) the media queries have distinct hard changes.</p>
         </section>
 
         <section class="scaling">
             <h2>Scaling</h2>
-            <p>By choosing six values, a min and max, for screen width, font size and scale step, the computer is trusted to calculate the fluid transition of scaling. Resize the browser window to observe the transition.</p>
+            <p>By choosing six values, a min and max, for screen width, font size and scale step, the computer is trusted to calculate the fluid transition of scaling. </p>
+            <p class="resize">Resize the browser window to observe the transition.</p>
             <div class="steps">
                 <p class="step4">This is the biggest font</p>
                 <p class="step3">This is almost the biggest font</p>
@@ -31,23 +51,10 @@
             </div>
         </section>
 
-        <section class="responsive">
-            <h2>Responsiveness</h2>
-            <p>A website with no CSS is responsive by nature. This is what is referred to ass intrinsic responsiveness. The advent of different screen sizes made fitting content for these differences a high priority. This is what's called responsive web design. This has for a long time, and still does, meant defining breakpoints and the use of media queries in CSS code.</p>
-
-            <div class="layout">
-                <p class="utopia">I'm a text and I use Utopia calculations to fluidly transition between screen sizes</p>
-                <p class="intrinsic">I'm also a text, but I don't use any responsive coding in CSS. I'm what's called intrinsic.</p>
-                <p class="media">I'm the most common text, and I realy on different media queries to define breakpoints.</p>
-            </div>
-
-            <p>The main differences is that (1) the Utopia text fluidly transitions between font sizes, while (2) the intrinsic never changes, and (3) the media queries have distinct hard changes.</p>
-        </section>
-
         <section class="the-hood">
             <h2>Under the hood</h2>
             <p>The Utopia principles will hopefully simplplify the work flow for designers and developers. Designers don't have to design for several breakpoints, and can trust the computer to automatically calculate "the feel" of the design regardless of screen sizes. For developers this process will in many instances mean just one line of code, <code>font-size: var(--step-1)</code> after using the calculations available on the Utopia website. Minimal and elegant code, with more time to collaborate with designers.</p>
-            <p>All the complicated maths behind the Utopia principles can be found on <a href="https://utopia.fyi/">the Utopia website.</a></p>
+            <p class="link">All the complicated maths behind the Utopia principles can be found on <a href="https://utopia.fyi/">the Utopia website.</a></p>
         </section>
     </main>
 </body>
